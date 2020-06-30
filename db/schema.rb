@@ -10,20 +10,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_30_042009) do
+ActiveRecord::Schema.define(version: 2020_06_30_222442) do
 
   create_table "admins", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "email", default: "", null: false
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.index ["email"], name: "index_admins_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_admins_on_reset_password_token", unique: true
   end
 
   create_table "bad_reports", force: :cascade do |t|
     t.string "comment"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "User_id"
-    t.integer "Communicate_id"
+    t.integer "User_id", null: false
+    t.integer "Communicate_id", null: false
     t.index ["Communicate_id"], name: "index_bad_reports_on_Communicate_id"
     t.index ["User_id"], name: "index_bad_reports_on_User_id"
   end
@@ -33,6 +40,13 @@ ActiveRecord::Schema.define(version: 2020_06_30_042009) do
     t.decimal "rut"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "email", default: "", null: false
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.index ["email"], name: "index_businesses_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_businesses_on_reset_password_token", unique: true
   end
 
   create_table "communicates", force: :cascade do |t|
@@ -40,8 +54,8 @@ ActiveRecord::Schema.define(version: 2020_06_30_042009) do
     t.decimal "waiting_line_quantity"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "Shop_id"
-    t.integer "User_id"
+    t.integer "Shop_id", null: false
+    t.integer "User_id", null: false
     t.index ["Shop_id"], name: "index_communicates_on_Shop_id"
     t.index ["User_id"], name: "index_communicates_on_User_id"
   end
@@ -54,7 +68,7 @@ ActiveRecord::Schema.define(version: 2020_06_30_042009) do
     t.decimal "dimension"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.integer "Business_id"
+    t.integer "Business_id", null: false
     t.index ["Business_id"], name: "index_shops_on_Business_id"
   end
 
@@ -65,6 +79,13 @@ ActiveRecord::Schema.define(version: 2020_06_30_042009) do
     t.string "address"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "email", default: "", null: false
+    t.string "encrypted_password", default: "", null: false
+    t.string "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.index ["email"], name: "index_users_on_email", unique: true
+    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
   add_foreign_key "bad_reports", "Communicates"

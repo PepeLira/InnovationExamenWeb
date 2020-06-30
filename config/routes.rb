@@ -16,5 +16,6 @@ Rails.application.routes.draw do
   resources :shops, shallow: true do
     resources :users
     resources :communicates
+    resources :bad_reports
   end
 end

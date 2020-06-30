@@ -1,4 +1,4 @@
 class Shop < ApplicationRecord
-  belongs_to :business
+  belongs_to :businesses
   has_many :communicates
 end

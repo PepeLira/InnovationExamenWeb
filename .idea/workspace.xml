@@ -22,28 +22,12 @@
     <list default="true" id="383d841c-266f-4765-a95b-5d3a46601d46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models_generates.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Models_generates.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/admin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/admin.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/bad_report.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/bad_report.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/business.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/business.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/shop.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/shop.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/shop_quantity_post.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012912_create_admins.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012913_create_users.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012914_create_businesses.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012915_create_shops.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012916_create_shop_quantity_posts.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012917_create_bad_reports.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012921_add_business_to_shop.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012922_add_shop_to_shop_quantity_post.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012923_add_user_to_shop_quantity_post.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012924_add_user_to_bad_report.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012932_add_shop_quantity_post_to_bad_report.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/shop_quantity_posts.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/shops.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/shops.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/shop_quantity_post_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +167,7 @@
       <updated>1593475668825</updated>
       <workItem from="1593475670827" duration="4966000" />
       <workItem from="1593480681154" duration="4769000" />
+      <workItem from="1593533809628" duration="4419000" />
     </task>
     <servers />
   </component>

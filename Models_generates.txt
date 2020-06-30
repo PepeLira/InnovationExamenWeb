@@ -11,7 +11,7 @@ rails g migration AddUserToCommunicate User:references
 rails g migration AddUserToBadReport User:references
 rails g migration AddCommunicateToBadReport Communicate:references
 
-rails g devise install
+rails g devise:install
 
 rails g devise Admin
 rails g devise Business

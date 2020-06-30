@@ -1,0 +1,2 @@
+module BadReportsHelper
+end

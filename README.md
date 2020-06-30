@@ -22,3 +22,23 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+Comandos para iniciar una applicación Web 
+
+
+*Camino al triunfo*
+
+@ rails new [name of your application](lowercase) 
+
+@ rails g model ModelName Atributo1:Type … 
+
+@ rails g migration Add(1)To(2) (1):references 
+
+@ rails g devise:install 
+
+@ rails g devise [MODEL Name] 
+
+@ rails g scaffold_controller Name [actions][options] 
+
+ 

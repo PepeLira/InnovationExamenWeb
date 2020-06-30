@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  indoors_quantity: 
+  waiting_line_quantity: 
+
+two:
+  indoors_quantity: 
+  waiting_line_quantity: 

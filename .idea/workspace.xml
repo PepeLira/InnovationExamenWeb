@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="383d841c-266f-4765-a95b-5d3a46601d46" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1e14GMQ2oiw1ojIbkEx4NC0HV5P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -157,7 +158,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593475668825</updated>
-      <workItem from="1593475670827" duration="4618000" />
+      <workItem from="1593475670827" duration="4966000" />
+      <workItem from="1593480681154" duration="4769000" />
     </task>
     <servers />
   </component>
@@ -174,5 +176,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="669" y="268" width="581" height="570" key="find.popup" timestamp="1593480845599">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="669" y="268" width="581" height="570" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1593480845599" />
   </component>
 </project>

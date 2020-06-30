@@ -1,0 +1,21 @@
+rails  g model Admin name:string
+rails  g model User user_name:string name:string birth_date:datetime address:string
+rails  g model Business name:string rut:numeric
+rails  g model Shop location:string opening_schedule:time closing_schedule:time shop_type:string dimension:numeric
+rails  g model ShopQuantityPost indoors_quantity:numeric waiting_line_quantity:numeric
+rails  g model BadReport comment:string
+
+rails g devise install
+
+rails g devise Admin
+rails g devise Business
+rails g devise User
+
+rails db:migrate
+
+rails g migration AddBusinessToShop Business:references
+rails g migration AddShopToShopQuantityPost Shop:references
+rails g migration AddUserToShopQuantityPost User:references
+rails g migration AddUserToBadReport User:references
+rails g migration AddShopQuantityPostToBadReport ShopQuantityPost:references
+

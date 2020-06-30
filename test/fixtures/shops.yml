@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  location: MyString
+  opening_schedule: 2020-06-29 21:29:15
+  closing_schedule: 2020-06-29 21:29:15
+  shop_type: MyString
+  dimension: 
+
+two:
+  location: MyString
+  opening_schedule: 2020-06-29 21:29:15
+  closing_schedule: 2020-06-29 21:29:15
+  shop_type: MyString
+  dimension: 

@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ShopQuantityPostTest < ActiveSupport::TestCase
+class CommunicateTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

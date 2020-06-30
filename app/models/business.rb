@@ -1,4 +1,4 @@
 class Business < ApplicationRecord
   has_one :shop
-  has_many :shop_quantity_posts
+  has_many :communicates, through: :shop
 end

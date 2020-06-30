@@ -2,14 +2,14 @@
 
 one:
   location: MyString
-  opening_schedule: 2020-06-29 21:29:15
-  closing_schedule: 2020-06-29 21:29:15
+  opening_schedule: 2020-06-30 00:19:43
+  closing_schedule: 2020-06-30 00:19:43
   shop_type: MyString
   dimension: 
 
 two:
   location: MyString
-  opening_schedule: 2020-06-29 21:29:15
-  closing_schedule: 2020-06-29 21:29:15
+  opening_schedule: 2020-06-30 00:19:43
+  closing_schedule: 2020-06-30 00:19:43
   shop_type: MyString
   dimension: 

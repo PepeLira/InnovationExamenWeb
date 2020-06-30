@@ -21,6 +21,29 @@
   <component name="ChangeListManager">
     <list default="true" id="383d841c-266f-4765-a95b-5d3a46601d46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models_generates.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Models_generates.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/admin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/admin.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/bad_report.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/bad_report.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/business.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/business.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/shop.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/shop.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/shop_quantity_post.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012912_create_admins.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012913_create_users.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012914_create_businesses.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012915_create_shops.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012916_create_shop_quantity_posts.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012917_create_bad_reports.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012921_add_business_to_shop.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012922_add_shop_to_shop_quantity_post.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012923_add_user_to_shop_quantity_post.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012924_add_user_to_bad_report.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200630012932_add_shop_quantity_post_to_bad_report.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/shop_quantity_posts.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/shops.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/shops.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/shop_quantity_post_test.rb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,9 +202,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="669" y="268" width="581" height="570" key="find.popup" timestamp="1593480845599">
+    <state x="669" y="268" width="581" height="570" key="find.popup" timestamp="1593490839143">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="669" y="268" width="581" height="570" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1593480845599" />
+    <state x="669" y="268" width="581" height="570" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1593490839143" />
   </component>
 </project>
